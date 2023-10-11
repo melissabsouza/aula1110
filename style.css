@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: tomato;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 8px;
+    display: flex;
+   /* flex-direction: column; */
+    flex-direction: row;
+   /* flex-direction: column-reverse */
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items: center; /* alinha na vertical */
+
+}
+
+.item{
+    background-color: goldenrod;
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
